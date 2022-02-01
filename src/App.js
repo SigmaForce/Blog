@@ -1,8 +1,13 @@
+import Header from "./Components/Header";
+import Article from "./Components/Article";
 
 function App() {
   return (
     <div className="App">
-      <h1> Meu Blog</h1>
+      <>
+        <Header />
+        <Article />
+      </>
     </div>
   );
 }
